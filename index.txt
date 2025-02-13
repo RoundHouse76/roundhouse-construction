@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roundhouse Construction LLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: #333;
+        }
+
+        header {
+            background-color: #e74c3c; /* Red */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 5px;
+        }
+
+        nav {
+            background-color: #f39c12; /* Orange */
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+        }
+
+        nav a:hover {
+            background-color: #e74c3c;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #e74c3c;
+        }
+
+        .about-section, .services-section, .contact-form-section {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #d74b37;
+        }
+
+        footer {
+            background-color: #e74c3c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Roundhouse Construction LLC</h1>
+    <p>Specializing in Remodel, Exterior, and Interior Work</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Our Services</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At Roundhouse Construction LLC, we are experts in remodeling and exterior construction services. Whether you need interior renovations or exterior upgrades, we have the experience to bring your vision to life. Our mission is to deliver high-quality craftsmanship and complete customer satisfaction.</p>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Interior Remodeling</li>
+            <li>Exterior Work</li>
+            <li>Home Additions</li>
+            <li>Roofing</li>
+            <li>Decks and Patios</li>
+            <li>General Construction</li>
+        </ul>
+        <p>Contact us to learn more about how we can help with your next construction project!</p>
+    </section>
+
+    <section id="contact" class="contact-form-section">
+        <h2>Contact Us</h2>
+        <p>If you'd like to get a quote or have any questions, feel free to reach out to us. We'll get back to you as soon as possible!</p>
+        <form class="contact-form" action="https://formspree.io/f/xwkjpgnz" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Describe your project" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Roundhouse Construction LLC | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
